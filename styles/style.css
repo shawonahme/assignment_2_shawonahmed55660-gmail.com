@@ -274,11 +274,50 @@ font-size: .9rem;
 .item_p{
     margin:0px 0px;
     color: var(--light-color);
-    font-size: .8rem;
+    font-size: .9rem;
     line-height: 1.4rem;
 }
 
+
+
+
 /* habit section end here  */
+/* run section start here  */
+.run_section{
+    width: 80%;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--background-light);
+    padding: 30px 50px;
+    border-radius: 16px;
+}
+.run_content{
+    width: 80%;
+    /* border: 1px solid yellow; */
+}
+.run_h1{
+    color: var(--secondary-color);
+    font-size: 2.5rem;
+    width: 70%;
+    margin-bottom: 20px;
+}
+.run_p{
+    color: var(--light-color);
+    margin-bottom: 25px;
+    line-height: 1.5rem;
+}
+.run_img{
+    width: 100%;
+    text-align: right;
 
+    /* border: 1px solid tomato; */
+}
+.run_img img{
+    width: 70%;
+    border-radius: 16px;
+    height: 100%;
+}
 
+/* run section end here  */
 /* main style end here  */
