@@ -253,7 +253,30 @@ section.run_section {
     width: 80%;
     margin: 10px auto;
 }
+.card_1_item_3 {
+   
+    height: 250px;
+}
 
+.card_1_item_2 {
+    height: 250px;
+}
+
+.card_1_item_1 {
+    height: 250px;
+}
+
+.card_2_item_4 {
+    height: 250px;
+}
+
+.card_2_item_5 {
+    height: 250px;
+}
+
+.card_2_item_6 {
+    height: 250px;
+}
 .run_btn_1 {
     width: 100%;
     
@@ -286,5 +309,51 @@ p.item_2_P_1 {
 }
 .traning_heading {
     width: 100%;
+}
+.bmi_calculator_container {
+    flex-direction: column;
+}
+
+.bmi_item_2 {
+    margin-top: 40px;
+}
+
+form.form_table {
+    width: 100%;
+}
+
+.bmi_item_2_heading {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+h1.bmi_itme_2_h1 {
+    font-size: 1.6rem;
+}
+
+h1.bmi_h_item_1 {
+    font-size: 1.6rem;
+    word-spacing: 0rem;
+    text-align: left;
+    width: 90%;
+}
+
+
+
+select.sex {
+    width: 45%;
+}
+.cal_btn{
+    margin-left: 0px;
+}
+button.btn.cal_btn.btn_active {
+    margin-left: 0;
+}
+.bmi_heading {
+    width: 90%;
+    
+}
+button.btn.cal_btn.btn_active {
+    width: 50%;
 }
 }
