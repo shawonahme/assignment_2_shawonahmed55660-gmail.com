@@ -291,6 +291,7 @@ font-size: .9rem;
     background-color: var(--background-light);
     padding: 30px 50px;
     border-radius: 16px;
+    /* border: 1px solid red; */
 }
 .run_content{
     width: 80%;
@@ -319,5 +320,192 @@ font-size: .9rem;
     height: 100%;
 }
 
+
 /* run section end here  */
+
+/* training section start here  */
+
+.traning_section{
+    width: 86%;
+    margin: 60px auto;
+    /* border: 1px solid green; */
+}
+
+.traning_heading{
+    width: 60%;
+   
+}.item_2_P_1{
+    color: var(--secondary-color);
+    position: absolute;
+    z-index: 2;
+    top: 30px;
+    left: 30px;
+    max-width: 40%;
+    text-align: left;
+    font-size: 1.3rem;
+}
+.item_2_P{
+    color: var(--secondary-color);
+    position: absolute;
+    z-index: 2;
+    top: 30px;
+    right: 30px;
+    max-width: 30%;
+    text-align: right;
+    font-size: 1.3rem;
+}
+.item_1_P{
+    color: var(--secondary-color);
+    position: absolute;
+    z-index: 2;
+    bottom: 30px;
+    left: 30px;
+    max-width: 70%;
+    font-size: 1.3rem;
+}
+.traning_h1{
+    color: var(--secondary-color);
+    margin: 1.2rem 0rem;
+    font-size: 2rem;
+}
+.traning_p{
+    color: var(--light-color);
+    font-size: 1.2rem;
+    line-height: 1.7rem;
+}
+.item_1_img{
+    width: 100%;
+    height: 100%;
+   
+}
+.card_1_item_2{
+    width: 100%;
+    height: 300px;
+    position: relative;
+}
+.card_1_item_3{
+    width: 100%;
+    height: 300px;
+    position: relative;
+}
+.card_1_item_1{
+    width: 100%;
+    height: 300px;
+    position: relative;
+    
+}
+.traning_card_1{
+    display: grid;
+    grid-template-columns: .6fr  1.5fr .9fr;
+    object-fit: cover;
+   
+    position: relative;
+    overflow: hidden;
+    margin-top: 50px ;
+    
+    
+    
+}
+.card_1_item_1:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color:  rgba(6, 255, 210, 0.5);
+    z-index: 1;
+
+}
+.card_1_item_2:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 0, 0, 0.3);
+    z-index: 1;
+    
+}
+.card_1_item_3:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+
+
+}
+    .item_1_img{
+        width: 100%;
+        height: 100%;
+       
+    }
+    .card_2_item_6{
+        width: 100%;
+        height: 300px;
+        position: relative;
+    }
+    .card_2_item_5{
+        width: 100%;
+        height: 300px;
+        position: relative;
+    }
+    .card_2_item_4{
+        width: 100%;
+        height: 300px;
+        position: relative;
+        
+    }
+    .traning_card_2{
+        display: grid;
+        grid-template-columns: 1.5fr  .7fr .9fr;
+        object-fit: cover;
+       
+        position: relative;
+        overflow: hidden;
+        margin: 0px 0px;
+        
+        
+        
+    }
+    .card_2_item_4:before{
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color:  rgba(0, 0, 0, 0.5);
+        z-index: 1;
+    
+    }
+    .card_2_item_5:before{
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(66, 255, 0, 0.3);
+        z-index: 1;
+        
+    }
+    .card_2_item_6:before{
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 71, 255, 0.3);
+        z-index: 1;
+
+}
+/* training section end here  */
+
 /* main style end here  */

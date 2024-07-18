@@ -258,5 +258,33 @@ section.run_section {
     width: 100%;
     
 }
+.traning_card_1 {
+    grid-template-columns: 1.1fr .9fr 0fr;
+}
 
+.traning_card_2 {
+    grid-template-columns: .9fr 1.1fr 0fr;
+}
+.card_1_item_2 {}
+
+p.item_2_P {
+    
+    left: 4%;
+    top: 80%;
+    text-align: left;
+    max-width: 81%;
+    font-size: 0.8rem;
+    margin: 1px auto;
+}
+
+p.item_1_P {
+    font-size: .8rem;
+}
+
+p.item_2_P_1 {
+    font-size: .8rem;
+}
+.traning_heading {
+    width: 100%;
+}
 }
