@@ -23,7 +23,87 @@ body{
     --font-family-secondary:"Playwrite HR Lijeva", "cursive";
     
 }
+@media screen and (min-width:1118px) {
+  
+    
+    h1.head_h1 {
+        font-size: 2.5rem;
+    }
+    
+   
+    p.head_p {
+        font-size: 1.2rem;
+        line-height: 1.7rem;
+    }
+    
+    
+    .traning_heading {
+        margin: 50px auto;
+        text-align: center;
+    }
+    
+    h1.traning_h1 {
+        font-size: 2.4rem;
+    }
+    
+    p.traning_p {
+        font-size: 1.4rem;
+    }
+    
+    .bmi_heading {
+      
+        text-align: center;
+       
+    }
+    
+    h1.bmi_h1 {
+        font-size: 2.5rem;
+    }
+    
+    p.bmi_p {
+        font-size: 1.4rem;
+    }
+    
+    .heading_section {
+        width: 60%;
+        margin: 50px auto;
+    }
+    
+    h1.head_h1 {
+        font-size: 2.5rem;
+    }
+    
 
+    
+   
+    .footer_p {
+        width: 85%;
+    }
+    p.head_p {
+        color: var(--light-color);
+        font-size: 1.4rem;
+        line-height: 1.7rem;
+    }
+    
+    .footer_p {
+        color: var(--light-color);
+        font-size: 1.2rem;
+        line-height: 1.7rem;
+    }
+    
+    p.bmi_item_2_p {
+        color: var(--light-color);
+        font-size: 1.2rem;
+        line-height: 1.7rem;
+    }
+    
+    p.run_p {
+        color: var(--light-color);
+        font-size: 1.2rem;
+        line-height: 1.7rem;
+    }
+    
+}
 /* desktop device  */
 @media screen and (min-width: 993px) and( max-width:1117px){
     button.btn {
@@ -31,6 +111,97 @@ body{
         margin: 0px;
         padding: 15px 30px;
     }
+   
+    
+    h1.head_h1 {
+        font-size: 2.5rem;
+    }
+    
+    p.head_p {
+        font-size: 1.2rem;
+        line-height: 1.7rem;
+    }
+    
+    
+    
+    .traning_heading {
+        margin: 50px auto;
+        text-align: center;
+    }
+    
+    h1.traning_h1 {
+        font-size: 2.4rem;
+    }
+    
+    p.traning_p {
+        font-size: 1.4rem;
+    }
+    
+    .bmi_heading {
+    
+        text-align: center;
+    }
+    
+    h1.bmi_h1 {
+        font-size: 2.5rem;
+    }
+    
+    p.bmi_p {
+        font-size: 1.4rem;
+    }
+    
+    .heading_section {
+        width: 60%;
+        margin: 50px auto;
+    }
+    
+    h1.head_h1 {
+        font-size: 2.5rem;
+    }
+    
+
+    
+  
+    .footer_p {
+        width: 85%;
+    }
+    p.banner_p {
+        color: var(--light-color);
+        font-size: 1.2rem;
+        line-height: 1.7rem;
+    }
+    .item_p {
+        color: var(--light-color);
+        font-size: 1.2rem;
+        line-height: 1.7rem;
+    }
+    p.head_p {
+        color: var(--light-color);
+        font-size: 1.2rem;
+        line-height: 1.7rem;
+    }
+    
+    .footer_p {
+        color: var(--light-color);
+        font-size: 1.2rem;
+        line-height: 1.7rem;
+    }
+    
+    p.bmi_item_2_p {
+        color: var(--light-color);
+        font-size: 1.2rem;
+        line-height: 1.7rem;
+    }
+    
+    p.run_p {
+        color: var(--light-color);
+        font-size: 1.2rem;
+        line-height: 1.7rem;
+    }
+    .footer_p {
+        width: 90%;
+    }
+        
 }
 
 /* tablet size  */
@@ -93,6 +264,146 @@ body{
     .run_img {
         margin: 20px auto;
     }
+
+
+select.sex {
+    width: 47%;
+}
+
+.team_container {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.traning_card_1 {
+    grid-template-columns: 1fr 1fr 0;
+}
+
+.traning_card_2 {
+    grid-template-columns: 1fr 1fr 0;
+}
+
+.bmi_heading {
+    width: 85%;
+}
+
+.bmi_calculator_container {
+    flex-direction: column;
+}
+
+.bmi_item_1 {
+    margin-bottom: 67px;
+}
+
+.bmi_item_1 {
+    width: 90%;
+    margin: 20ox auto;
+}
+
+.bmi_item_1 {
+    width: 80%;
+    margin: 50px auto;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h1.bmi_h_item_1 {
+    text-align: center;
+}
+
+.bmi_item_2_heading {
+    text-align: center;
+    width: 80%;
+    margin: 40px auto;
+}
+
+
+
+.traning_heading {
+    width: 85%;
+}
+
+
+
+h1.head_h1 {
+    font-size: 2.5rem;
+}
+
+p.head_p {
+    font-size: 1.4rem;
+}
+
+.traning_heading {
+    margin: 50px auto;
+    text-align: center;
+}
+
+h1.traning_h1 {
+    font-size: 2.4rem;
+}
+
+p.traning_p {
+    font-size: 1.4rem;
+}
+
+/* .bmi_heading {
+    width: 80%;
+    margin: 50px auto;
+    text-align: center;
+} */
+
+h1.bmi_h1 {
+    font-size: 2.5rem;
+}
+
+p.bmi_p {
+    font-size: 1.4rem;
+}
+
+.heading_section {
+    width: 80%;
+    margin: 50px auto;
+}
+
+h1.head_h1 {
+    font-size: 2.5rem;
+}
+
+
+
+p.head_p {
+    font-size: 1.4rem;
+}
+.footer_p {
+    width: 90%;
+}
+.footer_container{
+    display: grid;
+    grid-template-areas: "f_1 f_1" 
+                         "f_2 f_3";
+                         
+                         gap: 20px;
+                         grid-template-columns: none;
+}
+.footer_item1{
+
+    grid-area: f_1;
+
+
+}
+.footer_item2{
+    
+    grid-area: f_2;
+   
+
+}
+.footer_item3{
+   
+    grid-area: f_3;
+
+
+}
 }
 /* moblie device  */
 @media screen and (max-width:576px) {
@@ -176,9 +487,7 @@ body{
     .card_1 {
         bottom: 44%;
     }
-    .ban_img_container {
-        /* display: none; */
-    }
+  
     
     ul.nav_ul {
         display: none;
@@ -288,7 +597,7 @@ section.run_section {
 .traning_card_2 {
     grid-template-columns: .9fr 1.1fr 0fr;
 }
-.card_1_item_2 {}
+
 
 p.item_2_P {
     
@@ -355,5 +664,595 @@ button.btn.cal_btn.btn_active {
 }
 button.btn.cal_btn.btn_active {
     width: 50%;
+}
+.team_container {
+    grid-template-columns: repeat(1, 1fr);
+}
+.footer_container {
+    grid-template-columns: repeat(1, 1fr);
+}
+
+.footer_p {
+    width: 90%;
+}
+
+.footer_item1 {
+    margin-bottom: 30px;
+}
+
+.footer_item2 {
+    margin-bottom: 30px;
+}
+
+.right {
+    width: 100%;
+}
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Playwrite+HR+Lijeva:wght@100..400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    font-family: "Inter", sans-serif;
+    box-sizing: border-box;
+    background-color: var(--background-fill);
+    
+    
+}
+:root{
+    --primary-color: rgb(230, 83, 60);
+    --secondary-color: rgb(255, 255, 255);
+    --light-color: rgba(255, 255, 255, 0.5);
+    --background-light:rgb(34, 34, 34);
+    --fill-color:rgb(57, 57, 57);
+    --background-fill:rgb(0, 0, 0);
+    --border-color:rgba(255, 255, 255, 0.1);
+    --font-family-secondary:"Playwrite HR Lijeva", "cursive";
+    
+}
+
+/* desktop device  */
+@media screen and (min-width: 993px) and( max-width:1117px){
+    button.btn {
+        font-size: 1rem;
+        margin: 0px;
+        padding: 15px 30px;
+    }
+}
+
+/* tablet size  */
+@media screen and (min-width: 577px) and (max-width: 992px){
+    nav.navbar_container {
+        width: 90%;
+    }
+    
+    
+    #hero{
+        height: 100%;
+    }
+    
+    .banner_section_container {
+        width: 90%;
+        flex-direction: column;
+    }
+    
+    .banner_content {
+        width: 95%;
+        margin: 0px auto;
+    }
+    
+    .banner_img {
+        margin: 0px auto;
+        width: 68%;
+    }
+    
+    .card_1 {
+        left: 2%;
+    }
+    
+    .card_2 {
+        top: 15%;
+    }
+    .heading_section {
+        width: 80%;
+    }
+    
+    .habit_content {
+        grid-template-columns: repeat(2 , 1fr);
+    }
+    
+    section.habit_section {
+        width: 90%;
+    }
+    section.run_section {
+        flex-direction: column;
+    }
+    
+    .run_img {
+        align-items: center;
+        text-align: center;
+    }
+    
+    .run_img img {
+        width: 100%;
+    }
+    
+    .run_img {
+        margin: 20px auto;
+    }
+
+
+select.sex {
+    width: 47%;
+}
+
+.team_container {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.traning_card_1 {
+    grid-template-columns: 1fr 1fr 0;
+}
+
+.traning_card_2 {
+    grid-template-columns: 1fr 1fr 0;
+}
+
+.bmi_heading {
+    width: 85%;
+}
+
+.bmi_calculator_container {
+    flex-direction: column;
+}
+
+.bmi_item_1 {
+    margin-bottom: 67px;
+}
+
+.bmi_item_1 {
+    width: 90%;
+    margin: 20ox auto;
+}
+
+.bmi_item_1 {
+    width: 80%;
+    margin: 50px auto;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h1.bmi_h_item_1 {
+    text-align: center;
+}
+
+.bmi_item_2_heading {
+    text-align: center;
+    width: 85%;
+    margin: 40px auto;
+}
+
+
+
+.traning_heading {
+    width: 85%;
+}
+
+
+
+}
+/* moblie device  */
+@media screen and (max-width:576px) {
+    .banner_section_container {
+        flex-direction: column;
+        width: 95%;
+    }
+    
+    .banner_content {
+        width: 95%;
+    }
+    
+    h1.banner_h1 {
+        font-size: 3rem;
+    }
+    
+    button.btn.btn_active {
+        padding: 10px 20px;
+    }
+    
+    button.btn {
+        padding: 10px 20px;
+    }
+    
+    nav.navbar_container {
+        width: 95%;
+    }
+    
+    .banner_img {
+        width: 91%;
+    }
+    
+    .card_1 {
+        bottom: 32%;
+        left: 1%;
+    }
+    
+    .card_2 {
+        top: 15%;
+    }
+    
+    button.btn {
+        
+        margin-left: 13px;
+    }
+    .card_1 {
+        width: 36%;
+        height: auto;
+        padding: 5px;
+    }
+    
+    .cirle {
+        width: 30px;
+        height: 30px;
+        margin: 10px 10px;
+    }
+    
+    
+    
+    .cir_content h4 {
+        font-size: 1rem;
+        padding-bottom: 5px;
+    }
+    
+    .cir_content p {
+        font-size: .8rem;
+    }
+    
+    .card_2 {
+        padding: 7px 10px;
+        right: 8%;
+    }
+    
+    .card_2 h2 {
+        font-size: 1.2rem;
+    }
+    
+    .card_2 p {
+        font-size: .7rem;
+    }
+    .card_1 {
+        bottom: 44%;
+    }
+  
+    
+    ul.nav_ul {
+        display: none;
+    }
+    
+    .hambargar {
+        display: block;
+    }
+    #hero{
+        height: 100%;
+    }
+
+
+
+section.habit_section {
+    width: 90%;
+}
+
+.heading_section {
+    width: 90%;
+    text-align: left;
+}
+
+.habit_content {
+    grid-template-columns: repeat(1, 1fr);
+    
+    width: 78%;
+    
+    height: 100%;
+    margin: 0px auto;
+    gap: 30px;
+}
+section.run_section {
+    flex-direction: column;
+    padding: 20px;
+    width: 80%;
+}
+
+.run_img {
+    text-align: center;
+}
+.run_btn{
+    display: block;
+}
+.run_content {
+    width: 95%;
+}
+
+.run_img {
+    width: 90%;
+}
+
+.run_img img {
+    width: 100%;
+}
+
+section.run_section {
+    width: 80%;
+}
+
+section.run_section {
+    margin-top: 30px;
+}
+
+
+
+.run_img {
+    margin: 20px auto;
+    width: 100%;
+}
+
+.run_btn {
+    width: 80%;
+    margin: 10px auto;
+}
+.card_1_item_3 {
+   
+    height: 250px;
+}
+
+.card_1_item_2 {
+    height: 250px;
+}
+
+.card_1_item_1 {
+    height: 250px;
+}
+
+.card_2_item_4 {
+    height: 250px;
+}
+
+.card_2_item_5 {
+    height: 250px;
+}
+
+.card_2_item_6 {
+    height: 250px;
+}
+.run_btn_1 {
+    width: 100%;
+    
+}
+.traning_card_1 {
+    grid-template-columns: 1.1fr .9fr 0fr;
+}
+
+.traning_card_2 {
+    grid-template-columns: .9fr 1.1fr 0fr;
+}
+
+
+p.item_2_P {
+    
+    left: 4%;
+    top: 80%;
+    text-align: left;
+    max-width: 81%;
+    font-size: 0.8rem;
+    margin: 1px auto;
+}
+
+p.item_1_P {
+    font-size: .8rem;
+}
+
+p.item_2_P_1 {
+    font-size: .8rem;
+}
+.traning_heading {
+    width: 100%;
+}
+.bmi_calculator_container {
+    flex-direction: column;
+}
+
+.bmi_item_2 {
+    margin-top: 40px;
+}
+
+form.form_table {
+    width: 100%;
+}
+
+.bmi_item_2_heading {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+h1.bmi_itme_2_h1 {
+    font-size: 1.6rem;
+}
+
+h1.bmi_h_item_1 {
+    font-size: 1.6rem;
+    word-spacing: 0rem;
+    text-align: left;
+    width: 90%;
+}
+
+
+
+select.sex {
+    width: 45%;
+}
+.cal_btn{
+    margin-left: 0px;
+}
+button.btn.cal_btn.btn_active {
+    margin-left: 0;
+}
+.bmi_heading {
+    width: 90%;
+    
+}
+button.btn.cal_btn.btn_active {
+    width: 50%;
+}
+.team_container {
+    grid-template-columns: repeat(1, 1fr);
+}
+.footer_container {
+    grid-template-columns: repeat(1, 1fr);
+}
+
+.footer_p {
+    width: 90%;
+}
+
+.footer_item1 {
+    margin-bottom: 30px;
+}
+
+.footer_item2 {
+    margin-bottom: 30px;
+}
+
+.right {
+    width: 100%;
+}
+}
+.footer_container {
+    grid-template-columns: repeat(1, 1fr);
+}
+
+.footer_p {
+    width: 90%;
+}
+
+.footer_item1 {
+    margin-bottom: 30px;
+}
+
+.footer_item2 {
+    margin-bottom: 30px;
+}
+
+.right {
+    width: 100%;
+}
+
+h1.bmi_h_item_1 {
+    width: 100%;
+    text-align: center;
+}
+
+table.bmi_table {
+    width: 100%;
+}
+
+p.head_p {
+    color: var(--light-color);
+    font-size: 1.4rem;
+    line-height: 1.7rem;
+}
+
+.footer_p {
+    color: var(--light-color);
+    font-size: 1.4rem;
+    line-height: 1.7rem;
+}
+
+p.bmi_item_2_p {
+    color: var(--light-color);
+    font-size: 1.4rem;
+    line-height: 1.7rem;
+}
+
+p.run_p {
+    color: var(--light-color);
+    font-size: 1.4rem;
+    line-height: 1.7rem;
+}
+
+h1.run_h1 {
+    width: 100%;
+}
+
+.item_p {
+    color: var(--light-color);
+    font-size: 1.2rem;
+    line-height: 1.7rem;
+}
+
+p.banner_p {
+    color: var(--light-color);
+    font-size: 1.4rem;
+    line-height: 1.7rem;
+}
+
+h3.item_h3 {
+    font-size: 1.5rem;
+    margin-top: 30px;
+}
+
+.item_img {
+    width: 80%;
+    margin: 0px auto;
+}
+
+footer.footer_section {
+    width: 90%;
+}
+
+
+
+.bmi_heading {
+    width: 85%;
+}
+
+.banner_content {
+    margin: 0px auto;
+}
+
+button.btn.btn_active {
+    margin-left: 0px;
+}
+
+nav.navbar_container {
+    margin: 0px auto;
+}
+
+.footer_container{
+    display: grid;
+    grid-template-areas: "f_1 f_1" 
+                         "f_2 f_3";
+                         
+                         gap: 20px;
+}
+.footer_item1{
+
+    grid-area: f_1;
+
+
+}
+.footer_item2{
+    
+    grid-area: f_2;
+   
+
+}
+.footer_item3{
+   
+    grid-area: f_3;
+
+
 }
 }
