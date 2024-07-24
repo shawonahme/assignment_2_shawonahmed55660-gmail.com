@@ -284,6 +284,7 @@ select.sex {
 
 .bmi_heading {
     width: 85%;
+    text-align: center;
 }
 
 .bmi_calculator_container {
