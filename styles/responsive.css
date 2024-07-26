@@ -1256,4 +1256,39 @@ nav.navbar_container {
 
 
 }
+.contact_container {
+    flex-direction: column;
+}
+
+.contact_item2 {
+    width: 90%;
+    margin: 10px auto;
+    height: 50vh;
+}
+
+form.contact_form {
+    padding: 30px 15px;
+}
+
+label.label_contact {
+    width: 90%;
+}
+
+input.email {
+    width: 90%;
+}
+
+input.name {
+    width: 90%;
+}
+
+select.subject {
+    width: 95%;
+}
+
+textarea.textarea {
+    width: 90%;
+}
+
+
 }
