@@ -591,6 +591,8 @@ font-size: .9rem;
 }
 table.bmi_table {
     font-size: 1.1rem;
+    width: 80%;
+    height: 75%;
 }
 table , td,th {
     border: 1px solid rgba(255, 255, 255, 0.1);
@@ -767,7 +769,7 @@ font-size: 1.5rem;
 .contact_form{
     padding: 30px 40px;
 }
-.name ,.email ,.subject{
+.name ,.email {
     outline: none;
     width: 80%;
     height: 40px;
@@ -793,6 +795,16 @@ font-size: 1.5rem;
     width: 83%;
     /* padding: 20px 20px; */
     height: 60px;
+  
+        outline: none;
+      
+        background-color: rgba(255, 255, 255, 0.1);
+        border: none;
+        color: var(--light-color);
+        padding: 10px 10px;
+        font-size: 1.2rem;
+        border-radius: 16px;
+
 }
 .subject > option {
     
