@@ -657,7 +657,7 @@ color: var(--light-color);
 
  }
  .factor{
-    width: calc(100% - 20px);
+    width: calc(100% - 15px);
     display: inline-block;
     padding: 20px 10px;
     border-radius: 8px;
@@ -669,7 +669,7 @@ outline: none;
 color: var(--light-color);
  }
  select.sex {
-    width: 48%;
+    width: 47.5%;
 }
 .cal_btn{
     margin-top: 20px;
