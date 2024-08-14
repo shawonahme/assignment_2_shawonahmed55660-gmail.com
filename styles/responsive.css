@@ -47,7 +47,7 @@ body{
     }
     
     p.traning_p {
-        font-size: 1.4rem;
+        font-size: 1.2rem;
     }
     
     .bmi_heading {
@@ -61,7 +61,7 @@ body{
     }
     
     p.bmi_p {
-        font-size: 1.4rem;
+        font-size: 1.2rem;
     }
     
     .heading_section {
@@ -81,7 +81,7 @@ body{
     }
     p.head_p {
         color: var(--light-color);
-        font-size: 1.4rem;
+        font-size: 1.2rem;
         line-height: 1.7rem;
     }
     
@@ -118,7 +118,7 @@ body{
     }
     
     p.head_p {
-        font-size: 1.2rem;
+        font-size: 1rem;
         line-height: 1.7rem;
     }
     
@@ -134,7 +134,7 @@ body{
     }
     
     p.traning_p {
-        font-size: 1.4rem;
+        font-size: 1rem;
     }
     
     .bmi_heading {
@@ -147,7 +147,7 @@ body{
     }
     
     p.bmi_p {
-        font-size: 1.4rem;
+        font-size: 1rem;
     }
     
     .heading_section {
@@ -167,35 +167,35 @@ body{
     }
     p.banner_p {
         color: var(--light-color);
-        font-size: 1.2rem;
+        font-size: 1rem;
         line-height: 1.7rem;
     }
     .item_p {
         color: var(--light-color);
-        font-size: 1.2rem;
+        font-size: 1rem;
         line-height: 1.7rem;
     }
     p.head_p {
         color: var(--light-color);
-        font-size: 1.2rem;
+        font-size: 1rem;
         line-height: 1.7rem;
     }
     
     .footer_p {
         color: var(--light-color);
-        font-size: 1.2rem;
+        font-size: 1rem;
         line-height: 1.7rem;
     }
     
     p.bmi_item_2_p {
         color: var(--light-color);
-        font-size: 1.2rem;
+        font-size: 1rem;
         line-height: 1.7rem;
     }
     
     p.run_p {
         color: var(--light-color);
-        font-size: 1.2rem;
+        font-size: 1rem;
         line-height: 1.7rem;
     }
     .footer_p {
@@ -330,7 +330,7 @@ h1.head_h1 {
 }
 
 p.head_p {
-    font-size: 1.4rem;
+    font-size: 1rem;
 }
 
 .traning_heading {
@@ -343,7 +343,7 @@ h1.traning_h1 {
 }
 
 p.traning_p {
-    font-size: 1.4rem;
+    font-size: 1rem;
 }
 
 /* .bmi_heading {
@@ -357,7 +357,7 @@ h1.bmi_h1 {
 }
 
 p.bmi_p {
-    font-size: 1.4rem;
+    font-size: 1rem;
 }
 
 .heading_section {
@@ -372,7 +372,7 @@ h1.head_h1 {
 
 
 p.head_p {
-    font-size: 1.4rem;
+    font-size: 1rem;
 }
 .footer_p {
     width: 90%;
@@ -758,25 +758,25 @@ table.bmi_table {
 
 p.head_p {
     color: var(--light-color);
-    font-size: 1.4rem;
+    font-size: 1rem;
     line-height: 1.7rem;
 }
 
 .footer_p {
     color: var(--light-color);
-    font-size: 1.4rem;
+    font-size: 1rem;
     line-height: 1.7rem;
 }
 
 p.bmi_item_2_p {
     color: var(--light-color);
-    font-size: 1.4rem;
+    font-size: 1rem;
     line-height: 1.7rem;
 }
 
 p.run_p {
     color: var(--light-color);
-    font-size: 1.4rem;
+    font-size: 1rem;
     line-height: 1.7rem;
 }
 
@@ -786,13 +786,13 @@ h1.run_h1 {
 
 .item_p {
     color: var(--light-color);
-    font-size: 1.2rem;
+    font-size: 1rem;
     line-height: 1.7rem;
 }
 
 p.banner_p {
     color: var(--light-color);
-    font-size: 1.4rem;
+    font-size: 1rem;
     line-height: 1.7rem;
 }
 

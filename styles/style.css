@@ -72,7 +72,7 @@ select.factor {
 }
 
 p.run_p {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     line-height: 1.7rem;
 }
  /* common style end here  */
@@ -170,7 +170,7 @@ font-weight: 500;
     margin: 25px 0px;
     line-height: 1.7rem;
     max-width: 400px;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
 }
 
 
@@ -280,7 +280,7 @@ font-size: .9rem;
     color: var(--light-color);
     margin-bottom: 20px;
     line-height: 1.7rem;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
 
 }
 .habit_content{
@@ -323,7 +323,7 @@ font-size: .9rem;
 .item_p{
     margin:0px 0px;
     color: var(--light-color);
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     line-height: 1.7rem;
 }
 
@@ -356,6 +356,7 @@ font-size: .9rem;
     color: var(--light-color);
     margin-bottom: 25px;
     line-height: 1.5rem;
+    font-size: 1.2rem;
 }
 .run_img{
     width: 100%;
@@ -403,7 +404,7 @@ font-size: .9rem;
     right: 30px;
     max-width: 30%;
     text-align: right;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
 }
 .item_1_P{
     color: var(--secondary-color);
@@ -412,7 +413,7 @@ font-size: .9rem;
     bottom: 30px;
     left: 30px;
     max-width: 70%;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
 }
 .traning_h1{
     color: var(--secondary-color);
@@ -421,7 +422,7 @@ font-size: .9rem;
 }
 .traning_p{
     color: var(--light-color);
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     line-height: 1.7rem;
 }
 .item_1_img{
@@ -456,6 +457,9 @@ font-size: .9rem;
     
     
     
+}
+p.traning_p {
+    font-size: 1.1rem;
 }
 .card_1_item_1:before{
     content: '';
@@ -575,7 +579,7 @@ font-size: .9rem;
 
 .bmi_p{
     color: var(--light-color);
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     line-height: 1.7rem;
 }
 .bmi_section{
@@ -621,7 +625,7 @@ th{
   }
   .bmi_item_2_p{
     color: var(--light-color);
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     line-height: 1.7rem;
   }
 
@@ -735,7 +739,7 @@ font-size: 1.5rem;
 .team_p{
     color: var(--light-color);
     padding: 5px 0px;
-    font-size: 1.2rem;
+    font-size: 1rem;
     
 }
 
@@ -891,7 +895,7 @@ margin: 30px auto;
 .footer_p{
     width: 60%;
     color: var(--light-color);
-    font-size: 1.2rem;
+    font-size: 1rem;
     margin-top: 20px;
     line-height: 1.9rem;
 
