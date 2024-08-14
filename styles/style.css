@@ -933,6 +933,7 @@ margin-top: 20px;
     color: var(--light-color);
     font-size: 1.3rem;
     line-height: 2.5rem;
+    cursor: pointer;
 }
 .footer_hr{
     color: var(--light-color);
